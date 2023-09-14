@@ -2,7 +2,7 @@ import os
 import csv
 
 # Define file path
-csvpath = os.path.join("/Users/kaijagregory/Desktop/Python_Challenge/PyPoll/Resources/election_data.csv")
+csvpath = os.path.join("Resources/election_data.csv")
 
 # Create a directory to store the vote count for each candidate
 vote_count = {}
@@ -33,7 +33,7 @@ with open (csvpath) as csvfile:
 candidates = list(vote_count.keys())
 
 # Define the file path to export the analysis results
-output_file = "/Users/kaijagregory/Desktop/Python_Challenge/PyPoll/analysis/election_analysis.txt"
+output_file = "analysis/election_analysis.txt"
 
 # Write the analysis results to the terminal and a text file
 with open(output_file, "w") as text_file:

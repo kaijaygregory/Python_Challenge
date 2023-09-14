@@ -2,7 +2,7 @@ import os
 import csv
 
 # Define the file path
-csvpath = os.path.join('/Users/kaijagregory/Desktop/Python_Challenge/PyBank/Resources/budget_data.csv')
+csvpath = os.path.join("Resources/budget_data.csv")
 
 # Initialize variables to store results
 total_months = 0
@@ -58,7 +58,7 @@ print(f"Greatest Increase in Profits: {greatest_increase_date} (${greatest_incre
 print(f"Greatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})")
 
 # Save the results to a text file
-with open("/Users/kaijagregory/Desktop/Python_Challenge/PyBank/Analysis/financial_analysis.txt", "w") as txtfile:
+with open("analysis/financial_analysis.txt", "w") as txtfile:
     txtfile.write("Financial Analysis\n")
     txtfile.write("-----------------------------\n")
     txtfile.write(f"Total Months: {total_months}\n")
