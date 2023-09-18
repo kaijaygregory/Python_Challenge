@@ -1,4 +1,4 @@
-# Python_Challenge
+# python-challenge
 
 Background
 
