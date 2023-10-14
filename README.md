@@ -1,44 +1,42 @@
 # python-challenge
 
-Background
+Background:
 
-In this assignment, you'll use the concepts you've learned to complete two Python challenges, PyBank and PyPoll. Both tasks present a real-world situation where your newly developed Python scripting skills come in handy.
+In this assignment, I used newly learned Python scripting skills to complete two Python challenges, PyBank and PyPoll.
 
 PyBank Instructions
 
-In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called 'budget_data.csv'. The dataset is composed of two columns: "Date" and "Profit/Losses".
+For this Challenge, I was tasked with creating a Python script to analyze a company's financial records. I was given a financial dataset ('budget_data.csv') composed of two columns: "Date" and "Profit/Losses" and created a script that calculates each of the following values:
 
-Your task is to create a Python script that analyzes the records to calculate each of the following values:
+- The total number of months included in the dataset
 
-The total number of months included in the dataset
+- The net total amount of "Profit/Losses" over the entire period
 
-The net total amount of "Profit/Losses" over the entire period
+- The changes in "Profit/Losses" over the entire period, and then the average of those changes
 
-The changes in "Profit/Losses" over the entire period, and then the average of those changes
+- The greatest increase in profits (date and amount) over the entire period
 
-The greatest increase in profits (date and amount) over the entire period
+- The greatest decrease in profits (date and amount) over the entire period
 
-The greatest decrease in profits (date and amount) over the entire period
-
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+In addition, my final script prints the analysis to the terminal and exports a text file with the results.
 
 
 PyPoll Instructions
 
-In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
+For this Challenge, I was tasked with helping a small, rural town modernize its vote-counting process.
 
-You will be given a set of poll data called 'election_data.csv'. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
+I was given a set of poll data ('election_data.csv') composed of three columns: "Voter ID", "County", and "Candidate". I created a Python script that analyzes the votes and calculates each of the following values:
 
-The total number of votes cast
+- The total number of votes cast
 
-A complete list of candidates who received votes
+- A complete list of candidates who received votes
 
-The percentage of votes each candidate won
+- The percentage of votes each candidate won
 
-The total number of votes each candidate won
+- The total number of votes each candidate won
 
-The winner of the election based on popular vote
+- The winner of the election based on popular vote
 
-Your analysis should align with the following results:
+- Your analysis should align with the following results:
 
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+In addition, my final script prints the analysis to the terminal and exports a text file with the results.
