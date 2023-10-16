@@ -1,10 +1,10 @@
 # python-challenge
 
-Background:
+__Background__
 
 In this assignment, I used newly learned Python scripting skills to complete two Python challenges, PyBank and PyPoll.
 
-PyBank Instructions
+__PyBank Instructions__
 
 For this Challenge, I was tasked with creating a Python script to analyze a company's financial records. I was given a financial dataset ('budget_data.csv') composed of two columns: "Date" and "Profit/Losses" and created a script that calculates each of the following values:
 
@@ -21,7 +21,7 @@ For this Challenge, I was tasked with creating a Python script to analyze a comp
 In addition, my final script prints the analysis to the terminal and exports a text file with the results.
 
 
-PyPoll Instructions
+__PyPoll Instructions__
 
 For this Challenge, I was tasked with helping a small, rural town modernize its vote-counting process.
 
